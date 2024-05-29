@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "./tsconfig.json",
+    "../../../configs/typescript/tsconfig.node.lib.json",
+  ],
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "Node16",
+    "moduleResolution": "Node16"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"]
+}

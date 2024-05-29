@@ -1,0 +1,20 @@
+{
+  "name": "tsconfig-paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "cd libs/util/foo;rollup -c rollup.config.ts --configPlugin \"typescript={tsconfig:'tsconfig.rollup.json'}\"; cd -"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.12",
+    "rollup": "^4.18.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12"
+  }
+}
